@@ -129,28 +129,3 @@ with tf.Session() as sess:
 	test_y = mnist.test.labels[:validation_size]
 	test_acc = sess.run(accuracy, feed_dict={X: test_x, Y: test_y, keep_prob:1.0})
 	print('Test Accuracy: %s' %  (test_acc))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
