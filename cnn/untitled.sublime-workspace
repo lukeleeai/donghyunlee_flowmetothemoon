@@ -1,0 +1,1056 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"globals",
+				"global_step\tstatement"
+			],
+			[
+				"reducemn",
+				"reduce_mean\tfunction"
+			],
+			[
+				"crossen",
+				"softmax_cross_entropy_with_logits\tfunction"
+			],
+			[
+				"global",
+				"global_variables_initializer\tfunction"
+			],
+			[
+				"con",
+				"conv2\tstatement"
+			],
+			[
+				"glob",
+				"global_step\tstatement"
+			],
+			[
+				"random_uni",
+				"random_uniform_initializer\tclass"
+			],
+			[
+				"actio",
+				"action"
+			],
+			[
+				"get",
+				"get_done"
+			],
+			[
+				"df",
+				"DataFrame"
+			],
+			[
+				"lin",
+				"linspace\tfunction"
+			],
+			[
+				"candi",
+				"candidateName"
+			],
+			[
+				"candidan",
+				"candidateNames"
+			],
+			[
+				"discot",
+				"discounted_rewards"
+			],
+			[
+				"actis",
+				"act_size"
+			],
+			[
+				"actsi",
+				"act_size\tstatement"
+			],
+			[
+				"acn",
+				"num_actions\tstatement"
+			],
+			[
+				"behavi",
+				"behavior"
+			],
+			[
+				"Frozn",
+				"FrozenLake-v3"
+			],
+			[
+				"episo",
+				"episode"
+			],
+			[
+				"epis",
+				"episode"
+			],
+			[
+				"epi",
+				"episilon"
+			],
+			[
+				"si",
+				"action_size\tstatement"
+			],
+			[
+				"fff",
+				"f8f8f8"
+			],
+			[
+				"align",
+				"vertical-align"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"bord",
+				"border-bottom-left-radius"
+			],
+			[
+				"border-botto",
+				"border-bottom-right-radius"
+			],
+			[
+				"date",
+				"datepickerclass"
+			],
+			[
+				"styles",
+				"stylesheet"
+			],
+			[
+				"out_",
+				"OUT_TIME_DATE"
+			],
+			[
+				"ac",
+				"actions"
+			],
+			[
+				"val",
+				"val_num"
+			],
+			[
+				"train",
+				"train_test_split"
+			],
+			[
+				"da2",
+				"da2_mask"
+			],
+			[
+				"messAt",
+				"messageAttachment"
+			],
+			[
+				"attac",
+				"attachment"
+			],
+			[
+				"test",
+				"test_valid_size"
+			],
+			[
+				"stm",
+				"sendTextMessage"
+			],
+			[
+				"sendFigu",
+				"sendFigureSkating2"
+			],
+			[
+				"mysql",
+				"mysql_close"
+			],
+			[
+				"mysqli_con",
+				"mysqli_connect_errno"
+			],
+			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
+				"global_",
+				"global_variables"
+			],
+			[
+				"glo",
+				"global_variables_initializer"
+			],
+			[
+				"colr",
+				"colorIdx"
+			],
+			[
+				"tl",
+				"turtleColors"
+			],
+			[
+				"tur",
+				"turtleColors"
+			],
+			[
+				"Ap",
+				"Applied_Design"
+			],
+			[
+				"De",
+				"Demonstrate"
+			],
+			[
+				"fo",
+				"forward"
+			],
+			[
+				"applprice",
+				"applePlusOrangePrice"
+			],
+			[
+				"Fr",
+				"FrozenLake-v3"
+			],
+			[
+				"max",
+				"max_value"
+			],
+			[
+				"policyi",
+				"policy_iteration"
+			],
+			[
+				"acion",
+				"possible_actions"
+			],
+			[
+				"state",
+				"get_all_states"
+			],
+			[
+				"left",
+				"margin-left"
+			],
+			[
+				"heih",
+				"min-height"
+			],
+			[
+				"getW",
+				"getWeb"
+			],
+			[
+				"right",
+				"padding-right"
+			],
+			[
+				"getwe",
+				"getweat"
+			],
+			[
+				"getdus",
+				"getdust"
+			],
+			[
+				"dust",
+				"dustGrade"
+			],
+			[
+				"rid",
+				"recipientId"
+			],
+			[
+				"sent",
+				"sendTextMessage"
+			],
+			[
+				"sendl",
+				"sendLectureFloor"
+			],
+			[
+				"st",
+				"step"
+			],
+			[
+				"targ",
+				"targetQs_"
+			],
+			[
+				"inpus",
+				"inputs_"
+			],
+			[
+				"clas",
+				"classifier"
+			],
+			[
+				"mean",
+				"mean_normalize"
+			],
+			[
+				"decl",
+				"declarative_base"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"sig",
+				"sigmoid"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"studn",
+				"students"
+			],
+			[
+				"stu",
+				"students"
+			],
+			[
+				"ab",
+				"available"
+			],
+			[
+				"spin",
+				"spinned"
+			],
+			[
+				"sendg",
+				"sendGenericMessage"
+			],
+			[
+				"image",
+				"images"
+			],
+			[
+				"sendi",
+				"sendImage"
+			],
+			[
+				"Cl",
+				"Calculator"
+			],
+			[
+				"ft",
+				"gtcFirstIndex"
+			],
+			[
+				"redi",
+				"recipientId"
+			],
+			[
+				"recie",
+				"recipientId"
+			],
+			[
+				"sendS",
+				"sendSearchResults"
+			],
+			[
+				"post",
+				"postback"
+			],
+			[
+				"sendQuickReply",
+				"sendQuickReplyFeature"
+			],
+			[
+				"ricd",
+				"recipientId"
+			],
+			[
+				"reid",
+				"recipientId"
+			],
+			[
+				"process",
+				"processPostback"
+			],
+			[
+				"isFea",
+				"isFeature"
+			],
+			[
+				"isF",
+				"isFeature"
+			],
+			[
+				"tok",
+				"token"
+			],
+			[
+				"voteN",
+				"checkVoteNumber"
+			],
+			[
+				"co",
+				"count"
+			],
+			[
+				"ver",
+				"VERIFICATION_TOKEN"
+			],
+			[
+				"page",
+				"PAGE_ACCESS_TOKEN"
+			],
+			[
+				"two",
+				"two"
+			],
+			[
+				"rando",
+				"getRandomInt"
+			],
+			[
+				"result",
+				"result"
+			],
+			[
+				"senid",
+				"senderID"
+			],
+			[
+				"sendid",
+				"senderID"
+			],
+			[
+				"senI",
+				"senderID"
+			],
+			[
+				"resul",
+				"result"
+			],
+			[
+				"lun",
+				"sendLunch"
+			],
+			[
+				"aa",
+				"already"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"morni",
+				"morningTime"
+			],
+			[
+				"uer",
+				"userId"
+			],
+			[
+				"isSub",
+				"isSubscribe"
+			],
+			[
+				"Snedi",
+				"senderID"
+			],
+			[
+				"morn",
+				"morning"
+			],
+			[
+				"morN",
+				"morningMenu"
+			],
+			[
+				"mor",
+				"morningMenu"
+			],
+			[
+				"sender",
+				"senderID"
+			],
+			[
+				"sendI",
+				"senderID"
+			],
+			[
+				"hafs",
+				"hafs"
+			],
+			[
+				"senT",
+				"sendTextMessage"
+			],
+			[
+				"send",
+				"senderID"
+			],
+			[
+				"ran",
+				"getRandomInt"
+			],
+			[
+				"sendQU",
+				"sendQuickReplyDK"
+			],
+			[
+				"typing",
+				"typing_on"
+			],
+			[
+				"typingon",
+				"sendTypingOn"
+			],
+			[
+				"quick",
+				"sendQuickReply"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "cnn_mnist.py",
+			"settings":
+			{
+				"buffer_size": 4104,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/shatapy/Library/Application Support/Sublime Text 3/Packages/User/Virtualenv.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 70,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Anaconda Python Builder",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Virtualenv/Python + Virtualenv.sublime-build",
+					""
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 119.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"activate",
+				"Virtualenv: Activate"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"linting",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"anaconda: dis",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"linter",
+				"Anaconda: Next lint error"
+			],
+			[
+				"install",
+				"Install Package Control"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/shatapy/Library/Application Support/Sublime Text 3/Packages/User/tensorflow.sublime-project",
+		"/Users/shatapy/Library/Application Support/Sublime Text 3/Packages/User/Virtualenv.sublime-settings",
+		"/Users/shatapy/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/shatapy/FlowMeToTheMoon/cnn/EarlyStopping.py",
+		"/Users/shatapy/FlowMeToTheMoon/cnn/remove.py",
+		"/Users/shatapy/mbottest/index.js",
+		"/Users/shatapy/Desktop/mbottest_backup/indexOriginal.js",
+		"/Users/shatapy/Desktop/mbottest_backup/indexx.js",
+		"/Users/shatapy/Desktop/hmenu.json",
+		"/Users/shatapy/mbot/app.js",
+		"/Users/shatapy/Desktop/mbottest_backup/nodenlp.js",
+		"/Users/shatapy/funda_tf/logistic_mnist.py",
+		"/Users/shatapy/Desktop/AGI.ai/tfMNIST/tfcnnmnistsung.py",
+		"/Users/shatapy/pensieve/setup.py",
+		"/Users/shatapy/FlowMeToTheMoon/cnn/cnn_mnist.py",
+		"/Users/shatapy/Desktop/placeholder_constant.py",
+		"/Users/shatapy/funda_tf/generate_random_data.py",
+		"/Users/shatapy/Desktop/test.py",
+		"/Users/shatapy/Desktop/sync-request.json",
+		"/Users/shatapy/Desktop/google-services.json",
+		"/Users/shatapy/Desktop/pelindrome.py",
+		"/Users/shatapy/funda_tf/reuse_variables.py",
+		"/Users/shatapy/Desktop/jetai.html",
+		"/Users/shatapy/tf_fit_curve/data.js",
+		"/Users/shatapy/tf_fit_curve/model.js",
+		"/Users/shatapy/PycharmProjects/keras-rl-alogs/actor_critic.py",
+		"/Users/shatapy/tf_js/jetai/main.js",
+		"/Users/shatapy/tf_js/jetai/env.js",
+		"/Users/shatapy/tf_js/mnist/main.js",
+		"/Users/shatapy/parker/app.js",
+		"/Users/shatapy/Srapper/app.js",
+		"/Users/shatapy/Desktop/GAIL_bill/trajectory/expert_obs/000430.csv",
+		"/Users/shatapy/Desktop/GAIL_bill/test.csv",
+		"/Users/shatapy/PycharmProjects/keras-rl-alogs/play_gym.py",
+		"/Users/shatapy/Desktop/GAIL_bill/create_obs.py",
+		"/Users/shatapy/hafs_qix/qix_app/routes/index.html",
+		"/Users/shatapy/hafs_qix/qix_app/app.js",
+		"/Users/shatapy/testium/index.html",
+		"/Users/shatapy/testium/index.js",
+		"/Users/shatapy/Desktop/test.sol",
+		"/Users/shatapy/PycharmProjects/trading-gym/data/0/000430/0-000430-20180503-quote.csv",
+		"/Users/shatapy/Desktop/LIFIUM/MetaMask Seed Words.csv",
+		"/Users/shatapy/Desktop/GAIL/test_policy.py",
+		"/Users/shatapy/Desktop/GAIL/network_models/discriminator.py",
+		"/Users/shatapy/Desktop/GAIL/run_gail.py",
+		"/Users/shatapy/PycharmProjects/DLC_RL/ppo_agent.py",
+		"/Users/shatapy/Desktop/MetaMask Seed Words.csv",
+		"/Users/shatapy/PycharmProjects/trading-gym/data/0/000430/trajectory.py",
+		"/Users/shatapy/Desktop/threesixnine.py",
+		"/Users/shatapy/Desktop/to_csv.csv",
+		"/Users/shatapy/Desktop/gail/network_models/discriminator.py",
+		"/Users/shatapy/Desktop/gail/run_gail.py",
+		"/Users/shatapy/Desktop/tf.py",
+		"/Applications/XAMPP/xamppfiles/htdocs/mysql.php",
+		"/Applications/XAMPP/xamppfiles/etc/my.cnf",
+		"/Users/shatapy/Desktop/scraper.py",
+		"/Users/shatapy/Downloads/phpMyAdmin-4.7.6-all-languages/libraries/plugins/transformations/abs/DownloadTransformationsPlugin.php",
+		"/Applications/XAMPP/xamppfiles/lib/php/HTML/QuickForm/submit.php",
+		"/Users/shatapy/irl1/expert.py",
+		"/Users/shatapy/irl1/dqn.py",
+		"/Users/shatapy/Desktop/np_test.py",
+		"/Users/shatapy/irl1/deep_sarsa.py",
+		"/Users/shatapy/irl1/irl.py",
+		"/Applications/mampstack-7.1.16-0/docs/demo/htdocs/mysql.php",
+		"/Users/shatapy/anaconda/lib/python3.5/site-packages/keras/engine/training.py",
+		"/Users/shatapy/irl1/expert_play.py",
+		"/Users/shatapy/Desktop/mysql.php",
+		"/Users/shatapy/Desktop/cham1.py",
+		"/Users/shatapy/irl1/frozenLake.py",
+		"/Users/shatapy/Desktop/QIXAPP_TEST/js/script.js",
+		"/Users/shatapy/Desktop/QIXAPP_TEST/HAFSQIX_TEA.html",
+		"/Users/shatapy/Desktop/QIXAPP_TEST/css/style.css",
+		"/Users/shatapy/hafs_qix/qix/public/stylesheets/index.css",
+		"/Users/shatapy/hafs_qix/qix/routes/index.js",
+		"/Users/shatapy/hafs_qix/qix/routes/index.html",
+		"/Users/shatapy/Desktop/test.html",
+		"/Users/shatapy/hafs_qix/qix/app.js",
+		"/Users/shatapy/Desktop/mysqltest/mysqltest.js",
+		"/Users/shatapy/hafs_qix/qix/routes/done.html",
+		"/Users/shatapy/hafs_qix/qix/public/stylesheets/style.css",
+		"/Users/shatapy/hafs_qix/qix/routes/index.css",
+		"/Users/shatapy/hafs_qix/qix/index.html",
+		"/Users/shatapy/Desktop/HAFSQIX_TEA.html",
+		"/Users/shatapy/Desktop/persistent_menu.json",
+		"/Users/shatapy/mbottest/indexx.js",
+		"/Users/shatapy/mbottest/package.json",
+		"/Users/shatapy/virus/index.js",
+		"/Users/shatapy/codingscent/app.js",
+		"/Users/shatapy/Desktop/default.js",
+		"/Users/shatapy/Desktop/Srapper/routes/index.js",
+		"/Users/shatapy/Desktop/SrapperModel/app.js",
+		"/Users/shatapy/Desktop/Srapper/routes/users.js",
+		"/Users/shatapy/Desktop/blackjack_test.py",
+		"/Users/shatapy/Desktop/RL/reinforcement-learning-kr-master/1-grid-world/7-reinforce/reinforce_agent.py",
+		"/Users/shatapy/Desktop/Shatap Y/ALPHACA/event.py",
+		"/Users/shatapy/Desktop/DLCRL/05.maze/maze_start_code.py",
+		"/Users/shatapy/Desktop/DLC RL/05.maze/maze_start_code.py",
+		"/Users/shatapy/Desktop/Srapper/app.js",
+		"/Users/shatapy/Desktop/DLC_code/05.maze/maze_start_code.py",
+		"/Users/shatapy/Desktop/01.gridworld_value_iteration/value_iteration.py",
+		"/Users/shatapy/srapper_web/srapper_map/routes/index.js",
+		"/Users/shatapy/Desktop/Reinforcement Learning/reinforcement-learning-kr-master/1-grid-world/7-reinforce/reinforce_agent.py",
+		"/Users/shatapy/Desktop/Reinforcement Learning/reinforcement-learning-kr-master/1-grid-world/4-sarsa/sarsa_agent.py",
+		"/Users/shatapy/Srapper/package.json",
+		"/Users/shatapy/srapper_web/srapper_map/app.js",
+		"/Users/shatapy/Desktop/SrapperModel/routes/users.js",
+		"/Users/shatapy/Desktop/SrapperModel/routes/index.js",
+		"/Users/shatapy/Desktop/Srapper.html",
+		"/Users/shatapy/Desktop/geojson_test2.js",
+		"/Users/shatapy/Desktop/srapper_test.html",
+		"/Users/shatapy/Desktop/srapper_test2.html",
+		"/Users/shatapy/Desktop/srapper_test3.html",
+		"/Users/shatapy/Desktop/srapper_geojson.geojson",
+		"/Users/shatapy/Desktop/test_test.py",
+		"/Users/shatapy/Desktop/test1.py",
+		"/Users/shatapy/Desktop/ml_workflow.py",
+		"/Users/shatapy/Desktop/Deep Learning College/codes/2day/prac1_simple_two_Layer_net.py",
+		"/Users/shatapy/Desktop/Deep Learning College/codes/2day/prac1_train_neuralnet.py",
+		"/Users/shatapy/Desktop/Deep Learning College/codes/dataset/mnist.py",
+		"/Users/shatapy/Desktop/Deep Learning College/l2_regularization.py",
+		"/Users/shatapy/Desktop/Shatap Y/ALPHACA/mic_test.py",
+		"/Users/shatapy/Desktop/Shatap Y/ALPHACA/gui.py",
+		"/Users/shatapy/Desktop/Shatap Y/ALPHACA/record.py",
+		"/Users/shatapy/Desktop/Shatap Y/ALPHACA/on_listening.py",
+		"/Users/shatapy/Desktop/Shatap Y/ALPHACA/speech_api.py",
+		"/Users/shatapy/Desktop/Golbin/DeepMNISTCNN/cnnAgain.py",
+		"/Users/shatapy/Desktop/Deep Learning College/codes/common/functions.py",
+		"/Users/shatapy/shabitbot/index.js"
+	],
+	"find":
+	{
+		"height": 49.0
+	},
+	"find_in_files":
+	{
+		"height": 382.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"한표",
+			"피쳐폰",
+			"feature",
+			"savenumber",
+			"token",
+			"feature",
+			"님",
+			"bad",
+			"uploadFeatrueVoteFanta",
+			"sendQuickReplyFeature",
+			"function sendQuickReplyFeature",
+			"function sendQuickReply",
+			"sendQuickReply",
+			"sendQuick",
+			"sendQuickReplyFeature",
+			"sendQuickReplyDK",
+			"야",
+			"send",
+			"https://emojipedia-us.s3.amazonaws.com/cache/aa/30/aa30601d5d39db9b0f4bf2857781ebeb.png",
+			"취소",
+			"https://emojipedia-us.s3.amazonaws.com/thumbs/240/facebook/138/cross-mark_274c.png",
+			"취소",
+			"https://www.emojibase.com/resources/img/emojis/apple/x274c.png.pagespeed.ic.FVp-4VI7XS.png",
+			"취소",
+			"fanta",
+			"으로 표를",
+			"꽃",
+			"sendBooth",
+			"남조선을",
+			"취소",
+			"취",
+			"취소",
+			"sendWeb",
+			"부스",
+			"부",
+			"부스",
+			"nop",
+			"HAFS Cheers",
+			"MOTIV",
+			"Interlude",
+			"2인싸",
+			"Interlude",
+			"봄향사탕",
+			"ADHD",
+			"Hayul",
+			"C-Major",
+			"Gesture",
+			"하나린",
+			"Mavis",
+			"Cheers",
+			"누나쓰",
+			"The City",
+			"uploadFeatrueVoteSing",
+			"uploadVoteSing",
+			"5",
+			"4",
+			"5팀",
+			"팀",
+			"쌤",
+			"4팀",
+			"쌤",
+			"3팀",
+			"팀",
+			"쌤",
+			"2팀",
+			"쌤",
+			"1팀",
+			"쌤",
+			"8",
+			"7",
+			"5",
+			"3",
+			"sendVoteFashion",
+			"sendVoteSing",
+			"sendVoteFanta",
+			"2000",
+			"1000",
+			"판타스틱 ",
+			"askFanta",
+			"askSing",
+			"sendVoteSing",
+			"nop"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "cnn_mnist.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/shatapy/Library/Application Support/Sublime Text 3/Packages/User/Virtualenv.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 275.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/code/full_code/01.Breakout_DQN/breakout_dqn.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 270.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
