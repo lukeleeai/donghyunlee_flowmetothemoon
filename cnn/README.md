@@ -9,7 +9,7 @@ Github for Flow Me to the Moon
   zero initialization for biases  
   max pooling  
   cross entropy  
-  learning rate decay
+  learning rate decay  
   early stopping
 
 ![alt text](https://github.com/lukeleeai/donghyunlee_flowmetothemoon/blob/master/cnn/result_images/accuracy.png)
