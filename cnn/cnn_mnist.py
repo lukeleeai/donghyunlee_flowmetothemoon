@@ -2,6 +2,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 import tensorflow as tf 
+from EarlyStopping import EarlyStopping
 from tensorflow.examples.tutorials.mnist import input_data
 
 mnist = input_data.read_data_sets('./mnist/data/', one_hot=True, reshape=False)
@@ -10,7 +11,6 @@ num_classes = 10
 num_epoch = 10
 batch_size = 128
 num_batch = mnist.train.num_examples // batch_size
-dropout = 0.7
 validation_size = 256
 
 xavier = tf.contrib.layers.xavier_initializer()
@@ -20,11 +20,11 @@ global_step = tf.Variable(0, trainable=False)
 start_learning_rate = 0.001
 learning_rate = tf.train.exponential_decay(start_learning_rate, global_step, 100000, 0.96, staircase=False)
 
+early_stopping = EarlyStopping(patience=10)
+
 X = tf.placeholder(tf.float32, [None, 784])
 X = tf.reshape(X, [-1, 28, 28, 1])
 Y = tf.placeholder(tf.float32, [None, num_classes])
-
-keep_prob = tf.placeholder(tf.float32)
 
 K, L, M, N = 32, 64, 128, 1024
 W1 = tf.get_variable('W1', [3, 3, 1, K], initializer=xavier)
@@ -43,6 +43,7 @@ bout = tf.get_variable('bout', [num_classes], initializer=zero)
 def conv2d(x, W, b, strides=1):
 	conv = tf.nn.conv2d(x, W, [1, strides, strides, 1], padding='SAME')
 	conv = tf.nn.bias_add(conv, b)
+	conv = batch_norm(W.shape[-1], conv)
 	return tf.nn.relu(conv)
 
 
@@ -50,7 +51,7 @@ def max_pool(x, k=2):
 	return tf.nn.max_pool(x, ksize=[1, k, k, 1], strides=[1, k, k, 1], padding='SAME')
 
 
-def conv_net(x, keep_prob):
+def conv_net(x):
 	conv1 = conv2d(x, W1, b1)
 	conv1 = max_pool(conv1)
 
@@ -59,10 +60,10 @@ def conv_net(x, keep_prob):
 
 	conv3 = conv2d(conv2, W3, b3)
 	conv3 = max_pool(conv3)
-
+	
 	fc = tf.reshape(conv3, [-1, Wc.shape[0]])
 	fc = tf.nn.relu(tf.matmul(fc, Wc) + bc)
-	fc = tf.nn.dropout(fc, keep_prob)
+	# fc = tf.nn.dropout(fc, keep_prob)
 
 	out = tf.matmul(fc, Wout) + bout
 	return out
@@ -71,6 +72,15 @@ def conv_net(x, keep_prob):
 def cross_entropy(logits):
 	xent = tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=Y)
 	return tf.reduce_mean(xent)
+
+
+def batch_norm(shape, x):
+	eps = 1e-3
+	beta = tf.Variable(tf.ones(shape))
+	gamma = tf.Variable(tf.ones(shape))
+	mean, var = tf.nn.moments(x, [0])
+	BN = tf.nn.batch_normalization(x, mean, var, beta, gamma, eps)
+	return BN
 
 
 def train(cost):
@@ -89,7 +99,7 @@ def accuracy(logits):
 
 with tf.Session() as sess:
 
-	logits = conv_net(X, keep_prob)
+	logits = conv_net(X)
 
 	cost = cross_entropy(logits)
 	train_op = train(cost)
@@ -102,30 +112,35 @@ with tf.Session() as sess:
 
 	sess.run(tf.global_variables_initializer())
 
+	
 	for epoch in range(num_epoch):
 		avg_cost = 0
 		for batch in range(num_batch):
 			batch_x, batch_y = mnist.train.next_batch(batch_size)
-			sess.run(train_op, feed_dict={X:batch_x, Y:batch_y, keep_prob:dropout})
+			feeds = {X:batch_x, Y:batch_y}
+			sess.run(train_op, feed_dict=feeds)
 
-			batch_cost = sess.run(cost, feed_dict={X:batch_x, Y:batch_y, keep_prob:1.0})
+			batch_cost = sess.run(cost, feed_dict=feeds)
 			avg_cost += batch_cost / num_batch
 			print('Epoch: {:>2}, Batch: {:>3}, Cost: {:.9f}'.format(epoch+1, batch+1, batch_cost))
 
 			if batch % 100 == 0:
 				val_x = mnist.validation.images[:validation_size]
 				val_y = mnist.validation.labels[:validation_size]
-				val_feed_dict = {X:val_x, Y:val_y, keep_prob:1.0}
+				val_feeds = {X:val_x, Y:val_y}
 
-				accuracy_ = sess.run(accuracy, feed_dict=val_feed_dict)
+				accuracy_ = sess.run(accuracy, feed_dict=val_feeds)
 				print('Epoch: {:>2}, Batch: {:>3}, Val Accuracy: {:.9f}'.format(epoch+1, batch+1, accuracy_))
 
-				summary = sess.run(summary_op, feed_dict=val_feed_dict)
+				summary = sess.run(summary_op, feed_dict=val_feeds)
 				summary_writer.add_summary(summary, sess.run(global_step))
 
 				saver.save(sess, 'cnn_mnist_log/checkpoint', global_step=global_step)
 
+		if early_stopping.validate(avg_cost):
+			break
+
 	test_x = mnist.test.images[:validation_size]
 	test_y = mnist.test.labels[:validation_size]
-	test_acc = sess.run(accuracy, feed_dict={X: test_x, Y: test_y, keep_prob:1.0})
+	test_acc = sess.run(accuracy, feed_dict={X: test_x, Y: test_y})
 	print('Test Accuracy: %s' %  (test_acc))
